@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" th:replace="~{Base::parent(~{::#content},~{::title},~{::script})}">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Page</title>
 </head>
 <body>
-    <h1>This is About page.</h1>
-    <hr>
-    <!--This is fragment-->
-   
-    <div class="host-tag" th:insert="~{Base::Parent('one')}"> </div>
+    <div id="content" >
+        <h1>This is about Page</h1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, nulla!
+    </div>
+    <script>console.log("About Page")</script>
 </body>
 </html>

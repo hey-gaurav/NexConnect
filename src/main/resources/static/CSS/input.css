@@ -3,3 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* npx tailwindcss -i src/main/resources/static/CSS/input.css -o src/main/resources/static/CSS/output.css --watch */
